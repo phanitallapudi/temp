@@ -40,8 +40,8 @@ try:
 		df = pan.DataFrame(rows, columns=cols)
 
 		# Writing dataframe to csv
-		#df.to_csv('extracteddata.csv')
-		df.to_csv('D:\PythonPractiseCodes\SteelEyeAssignment\extracteddata.csv')
+		df.to_csv('extracteddata.csv')
+		
 		print("\n************************************************\n")
 		print("CSV file created and saved under the User folder.")
 
@@ -49,8 +49,8 @@ try:
 		print("It should be an XML file, not {} file".format(filename[-3:]))
 
 except AttributeError:
-	print("\nSomething went wrong please try again later..")
+	print("\nSomething went wrong please try again..")
 except IndexError:
-	print("\nSomething went wrong please try again later..")
+	print("\nSomething went wrong please try again..")
 except KeyboardInterrupt:
-	print("\nSomething went wrong please try again later..")
+	print("\nSomething went wrong please try again..")
